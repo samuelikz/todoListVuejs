@@ -1,0 +1,36 @@
+<template>
+  <div class="fullscreen bg-blue text-white text-center q-pa-md flex flex-center">
+    <div>
+      <div style="font-size: 30vh">
+        404
+      </div>
+
+      <q-circular-progress
+       indeterminate
+       size="50px"
+       color="white"
+       class="q-ma-md"
+      />
+
+      <div class="text-h2" style="opacity:.4">
+        Opa. Nada aqui...
+      </div>
+
+      <q-btn
+        class="q-mt-xl"
+        color="white"
+        text-color="blue"
+        unelevated
+        to="/"
+        label="Go Home"
+        no-caps
+      />
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'Error404'
+}
+</script>
