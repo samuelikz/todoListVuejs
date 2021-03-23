@@ -1,3 +1,6 @@
+[![licence mit](https://img.shields.io/badge/licence-MIT-blue.svg)](https://github.com/samuelikz/todoListVuejs/blob/master/LICENSE)
+
+
 # Todo List em Vuejs (todolistvuejs)
 
 interface do projeto de bases tecnologicas
